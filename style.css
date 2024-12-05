@@ -1,0 +1,44 @@
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* form>div,
+form>button {
+    margin-top: 1rem
+}
+
+a {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+label {
+    min-width: 30%;
+    width: 30%;
+    display: inline-block;
+}
+
+.errores {
+    padding: 0.5rem;
+    background-color: darkred;
+    color: white;
+} */
+
+
+td a {
+    margin-right: 1rem;
+}
+
+
+@media (max-width:768px) {
+    td a {
+        margin-right: 0;
+    }
+
+    td a:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+}
